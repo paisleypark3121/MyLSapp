@@ -31,3 +31,5 @@ Route::get('/wow', function () {
 Route::get('/param/{name?}', function ($name = null) {
     return $name;
 });
+
+Route::get('/db', 'App\Http\Controllers\tabletestController@index');
