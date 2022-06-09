@@ -22,3 +22,8 @@ Route::get('/test', function () {
     //return view('welcome');
     return "HELLO TEST";
 });
+
+Route::get('/wow', function () {
+    //return view('welcome');
+    return "HELLO WOW";
+});
