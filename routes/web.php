@@ -27,3 +27,7 @@ Route::get('/wow', function () {
     //return view('welcome');
     return "HELLO WOW";
 });
+
+Route::get('/param/{name?}', function ($name = null) {
+    return $name;
+});
